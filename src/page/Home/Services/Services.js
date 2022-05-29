@@ -19,7 +19,7 @@ const Services = () => {
               <img src={Img1} alt="" srcset="" />
             </div>
             <div className="service-info">
-              <h2>Title 1</h2>
+              <h2 className='my-4'>Title 1</h2>
               <button>Hello 1</button>
             </div>
           </div>
@@ -28,7 +28,7 @@ const Services = () => {
               <img src={Img2} alt="" srcset="" />
             </div>
             <div className="service-info">
-              <h2>Title 2</h2>
+            <h2 className='my-4'>Title 2</h2>
               <button>Hello 2</button>
             </div>
           </div>
@@ -37,7 +37,7 @@ const Services = () => {
               <img src={Img3} alt="" srcset="" />
             </div>
             <div className="service-info">
-              <h2>Title 3</h2>
+            <h2 className='my-4'>Title 3</h2>
               <button>Hello 3</button>
             </div>
           </div>
