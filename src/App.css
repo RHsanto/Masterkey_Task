@@ -1,6 +1,11 @@
 .color{
   color: #FF6F00;
 }
+
+.active{
+  background-color: #FF6F00 !important;
+  color: white ;
+}
 .banner-section{
  padding: 50px;
  background-color: #F8F8F8;
@@ -34,7 +39,7 @@
   height: 2px;
 }
 .services{
-  margin: 100px 0px;
+  margin: 100px 0px 200px 0px;
 }
 
 .service-row{
@@ -59,3 +64,15 @@
   font-size: larger;
 }
 
+/* nested-btn css */
+.nested-btn{
+  gap: 20px;
+}
+.nested-btn button{
+  width: 100%;
+  border: 0;
+  background-color: white;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.20);
+  padding: 10px 50px;
+  border-radius: 50px;
+}
