@@ -8,12 +8,12 @@ const Services = () => {
     <div className='services'>
       <div className='container text-center'>
         <div>
-        <h1>AVAILABLE FOR EVERYONE</h1>
+        <h2 className='title'>AVAILABLE FOR EVERYONE</h2>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br />
            Delectus obcaecati tempore recusandae quisquam iure a cumque
             similique velit aliquid! Saepe.</p>
         </div>
-        <div className="service-row mt-5">
+        <div className="service-row">
           <div className="service">
             <div className="service-img shadow">
               <img src={Img1} alt="" srcset="" />

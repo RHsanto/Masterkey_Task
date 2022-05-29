@@ -13,7 +13,26 @@
   font-size: 20px;
 }
 /* service section css */
+.title{
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.title::before{
+  content: '';
+  width: 30%;
+  background-color: #644F9C;
+  display: inline-block;
+  height: 2px;
 
+}
+.title::after{
+  content: '';
+  width: 30%;
+  background-color: #644F9C;
+  display: inline-block;
+  height: 2px;
+}
 .services{
   margin: 100px 0px;
 }
@@ -23,6 +42,7 @@
   grid-template-columns: 200px 200px 200px;
   gap: 200px;
   justify-content: space-between;
+  margin-top: 50px;
 }
 .service-img{
   padding: 40px;
