@@ -5,8 +5,8 @@ const Navbar = () => {
   return (
     <div>
     <div className="container">
-    <div className="menu-bar">
-      <div className="top-menu  d-lg-flex justify-content-between py-4">
+    <div className="menu-bar ">
+      <div className="top-menu  d-lg-flex justify-content-between p-3">
         <div className="logo">
           <h1>LOGO</h1>
         </div>
