@@ -1,9 +1,16 @@
 import React from 'react';
+import Achievement from './Achievement_section/Achivement';
+import AD from './AD_Section/AD';
+import Services from './Services/Services';
+import Sliders from './Sliders/Sliders';
 
 const Home = () => {
   return (
     <div>
-      <h1>Home Page</h1>
+      <Services/>
+      <AD/>
+      <Achievement/>
+      <Sliders/>
     </div>
   );
 };
