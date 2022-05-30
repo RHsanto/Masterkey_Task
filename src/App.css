@@ -176,9 +176,31 @@
  .footer li{
    list-style: none;
    margin: 15px 0;
+   font-size: 18px;
  }
-
+.footer li a{
+  text-decoration: none;
+  color: black;
+}
  .footer h5{
    color: #644F9C;
-   font-size: 25px;
+   font-size: 23px;
+ }
+
+.social-icons li{
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  color: white;
+}
+ .instagram{
+  background: linear-gradient(#4E5CC7,#e01d47,#FF7638);
+ 
+ }
+ .facebook{
+  background-color: #1E8AED;}
+ .youtube{
+  background-color: #E10404;
  }

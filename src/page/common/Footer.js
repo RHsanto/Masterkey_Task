@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import { FaInstagram,FaFacebookF ,FaYoutube} from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -9,10 +11,10 @@ const Footer = () => {
             <div className="foot-info-1">
               <h5>We are social </h5>
               <h4>FOLLOW US</h4>
-              <div className="d-flex">
-               <li>Instagram</li>
-               <li>Facebook</li>
-               <li>Youtube</li>
+              <div className="d-flex social-icons gap-3">
+               <li className='instagram'><FaInstagram/></li>
+               <li className='facebook'><FaFacebookF/></li>
+               <li className='youtube'><FaYoutube/></li>
               </div>
 
               <h1>LOGO</h1>
@@ -22,10 +24,10 @@ const Footer = () => {
           <div className="foot-info-2 fw-bold">
               <h5>Link</h5>
               <div>
-               <li>ADVERTISERS</li>
-               <li>PUBLISHERS</li>
-               <li>INFLUENCER</li>
-               <li>AD FORMATS</li>
+               <li><Link to='/#'>ADVERTISERS</Link> </li>
+               <li><Link to='/#'>PUBLISHERS</Link> </li>
+               <li><Link to='/#'>INFLUENCER</Link> </li>
+               <li><Link to='/#'> AD FORMATS</Link></li>
               </div>
           </div>
           </div>
@@ -33,10 +35,10 @@ const Footer = () => {
           <div className="foot-info-2 fw-bold">
               <h5>Documentation </h5>
               <div>
-               <li>TERMS & CONDITIONS</li>
-               <li>PRIVACY POLICY</li>
-               <li>CANCELLATION POLICY</li>
-               <li>BLOG</li>
+               <li> <Link to='/#'>TERMS & CONDITIONS</Link></li>
+               <li> <Link to='/#'>PRIVACY POLICY </Link></li>
+               <li> <Link to='/#'>CANCELLATION POLICY</Link></li>
+               <li> <Link to='/#'>BLOG</Link></li>
               </div>
           </div>
           </div>
@@ -44,9 +46,9 @@ const Footer = () => {
           <div className="foot-info-2">
               <h5>Support </h5>
               <div>
-               <li>FAQ</li>
-               <li>MEDIA KIT</li>
-               <li>CONTACT US</li>
+               <li><Link to='/#'>FAQ</Link></li>
+               <li><Link to='/#'>MEDIA KIT</Link></li>
+               <li><Link to='/#'>CONTACT US</Link></li>
               </div>   
           </div>
           </div>
