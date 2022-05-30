@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './all.css'
 const Navbar = () => {
   return (
@@ -17,13 +17,13 @@ const Navbar = () => {
      <div className=" d-lg-flex justify-content-between align-items-center">
        <nav>
          <>
-          <NavLink to='/'><li>HOME</li></NavLink>
-          <NavLink to='#'><li>ADVERTISERS</li></NavLink>
-          <NavLink to='#'><li>PUBLISHERS</li></NavLink>
-          <NavLink to='#'><li>INFLUENCER</li></NavLink>
-          <NavLink to='#'><li>AD FORMATS</li></NavLink>
-          <NavLink to='#'><li>BLOG</li></NavLink>
-          <NavLink to='#'><li>CONTACT US</li></NavLink>
+          <Link to='/'><li>HOME</li></Link>
+          <Link to='#'><li>ADVERTISERS</li></Link>
+          <Link to='#'><li>PUBLISHERS</li></Link>
+          <Link to='#'><li>INFLUENCER</li></Link>
+          <Link to='#'><li>AD FORMATS</li></Link>
+          <Link to='#'><li>BLOG</li></Link>
+          <Link to='#'><li>CONTACT US</li></Link>
          </>
        </nav>
 
