@@ -22,11 +22,11 @@ const ADVERTISE = () => {
         <div className="d-flex justify-content-between my-5 nested-btn">
           <button onClick={handlePopUnder} className='active'>POP-UNDER</button> 
           <button onClick={handleBanner}>BANNER AD</button>
-          <button onClick={handleNative}>NATIVE</button>
           <button onClick={handleSkim}>SKIM</button>
+          <button onClick={handleNative}>NATIVE</button>
         </div>
 {/* here nested result */}
-       <div className='pt-3'>
+       <div>
          {info}
        </div>
      </div>
