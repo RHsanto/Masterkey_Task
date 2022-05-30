@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../../img/logo3.png'
 import './all.css'
 const Navbar = () => {
   return (
@@ -7,8 +8,8 @@ const Navbar = () => {
     <div className="container">
     <div className="menu-bar ">
       <div className="top-menu  d-lg-flex justify-content-between p-3">
-        <div className="logo">
-          <h1>LOGO</h1>
+        <div className="logo ">
+          <img src={logo} alt="" />
         </div>
         <div className="language">
           <p>BN / EN</p>
