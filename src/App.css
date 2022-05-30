@@ -97,7 +97,7 @@
   background-color: #644F9C;
   padding: 50px;
 }
-.circle-1{
+.circle-1, .circle-2, .circle-3{
   border: 2px dotted white;
   border-radius: 50%;
   color: white;
@@ -110,15 +110,68 @@
 
 .circle-2{
   background-color: #ffffff;
-  border-radius: 50%;
   color: #644F9C;
-  padding: 115px 0;
-  font-size: larger;
+  border: 0;
+
 }
 .circle-3{
+  border: 0;
   background-color: #FF6F00;
-  border-radius: 50%;
   color: white;
-  padding: 115px 0;
-  font-size: larger;
 }
+/* sliders css */
+
+.sliders{
+  padding: 100px 0;
+}
+
+.slide{
+  width: 90% !important;
+  border-radius: 10px;
+  box-shadow: 5px 2px 10px #ccc;
+  padding: 0px 10px;
+  margin: 50px 10px;
+  gap: 10px;
+
+}
+.slide img{
+  width: 250px;
+  height: 250px;
+}
+
+
+.slick-next:before {
+  box-shadow: 5px 2px 10px #ccc;
+  background-color: #ffffff !important;
+  position: absolute;
+  width: 50px;
+  padding:15px 10px;
+  border-radius: 50%;
+  color: #644F9C !important;
+  margin-top: 180px;
+  margin-left: -42rem;
+}
+
+.slick-prev:before{
+  box-shadow: 5px 2px 10px #ccc;
+  color: #644F9C !important;
+  background-color: #ffffff !important;
+  position: absolute;
+  width: 50px;
+  padding:15px 10px;
+  border-radius: 50%;
+  margin-top: 180px;
+  margin-left: 36rem;
+}
+/* .slick-prev:before{
+  background-color: #f7503a;
+  position: absolute;
+  margin-top: -300px;
+  margin-left: 1150px;
+  width: 50px;
+  padding:15px 10px;
+  border-radius: 50%;
+} */
+.slick-dots {
+  display: none !important;
+ }
