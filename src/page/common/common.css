@@ -9,7 +9,7 @@ color: #644F9C !important;
 }
 
 nav li:hover{
-  color: #FF6F00;
+  color: #FF6F00 !important;
 }
 
 .logo img{
