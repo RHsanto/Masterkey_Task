@@ -65,14 +65,19 @@
 }
 
 /* nested-btn css */
-.nested-btn{
-  gap: 20px;
-}
+
 .nested-btn button{
   width: 100%;
   border: 0;
   background-color: white;
-  box-shadow: 0 .5rem 1rem rgba(0,0,0,.20);
-  padding: 10px 50px;
+  box-shadow: 5px 2px 10px #ccc;
+  padding:10px 0 ;
   border-radius: 50px;
+  margin: 0px 10px;
+}
+
+.learn-link {
+  text-decoration: none;
+  color: #644F9C;
+  font-size: larger;
 }
