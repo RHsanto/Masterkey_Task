@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../../img/logo3.png'
-import './all.css'
+import './common.css'
 const Navbar = () => {
   return (
     <div>
@@ -12,7 +12,7 @@ const Navbar = () => {
           <img src={logo} alt="" />
         </div>
         <div className="language">
-          <p>BN / EN</p>
+          <p><span>BN</span> / EN</p>
         </div>
       </div>
      <div className=" d-lg-flex justify-content-between align-items-center">
@@ -29,8 +29,8 @@ const Navbar = () => {
        </nav>
 
        <div className="auth shadow ">
-         <button className='login-btn'>LOGIN </button>
-         <button className='signUp-btn shadow'>SIGN UP</button>
+         <button className='login-btn '>LOGIN </button>
+         <button className='signUp-btn shadow '>SIGN UP</button>
        </div>
      </div>
      </div>

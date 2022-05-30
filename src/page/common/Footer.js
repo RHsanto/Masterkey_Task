@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaInstagram,FaFacebookF ,FaYoutube} from "react-icons/fa";
-
+import logo from '../../img/logo3.png'
+import './common.css'
 const Footer = () => {
   return (
     <div className='footer'>
@@ -17,7 +18,9 @@ const Footer = () => {
                <li className='youtube'><FaYoutube/></li>
               </div>
 
-              <h1>LOGO</h1>
+              <div className='logo'>
+                <img src={logo} alt="" />
+              </div>
             </div>
           </div>
           <div className="col-lg-3">
