@@ -19,8 +19,25 @@ const Services = () => {
               <img src={Img1} alt="" srcset="" />
             </div>
             <div className="service-info">
-              <h2 className='my-4'>Title 1</h2>
-              <div className='button'>Hello 1</div>
+              <h2 className='my-4'>Best Offers</h2>
+              <div className='button'>
+             <div type="button" class="" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+               Read More
+             </div>
+             <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+               <div class="modal-dialog">
+                 <div class="modal-content">
+                   <div class="modal-header">
+                     <h5 class="modal-title text-dark" id="exampleModalLabel1">Best offers</h5>
+                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                   </div>
+                   <div class="modal-body text-dark text-start ps-5">
+                    <h2>Best offers is coming soon !</h2> 
+                   </div>
+                 </div>
+               </div>
+             </div>
+            </div>
             </div>
           </div>
           <div className="service">
@@ -28,8 +45,25 @@ const Services = () => {
               <img src={Img2} alt="" srcset="" />
             </div>
             <div className="service-info">
-            <h2 className='my-4'>Title 2</h2>
-            <div className='button'>Hello 2</div>
+            <h2 className='my-4'>Most Delivery</h2>
+            <div className='button'>
+             <div type="button" class="" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+               Read More
+             </div>
+             <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+               <div class="modal-dialog">
+                 <div class="modal-content">
+                   <div class="modal-header">
+                     <h5 class="modal-title text-dark" id="exampleModalLabel2">Most Delivery</h5>
+                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                   </div>
+                   <div class="modal-body text-dark text-start ps-5">
+                    <h2>Most Delivery 25k+ books</h2>
+                   </div>
+                 </div>
+               </div>
+             </div>
+            </div>
             </div>
           </div>
           <div className=" ">
@@ -37,8 +71,33 @@ const Services = () => {
               <img src={Img3} alt="" srcset="" />
             </div>
             <div className="service-info">
-            <h2 className='my-4'>Title 3</h2>
-            <div className='button'>Hello 3</div>
+            <h2 className='my-4'>Best Publisher</h2>
+            <div className='button'>
+             <div type="button" class="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+               Read More
+             </div>
+             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+               <div class="modal-dialog">
+                 <div class="modal-content">
+                   <div class="modal-header">
+                     <h5 class="modal-title text-dark" id="exampleModalLabel">Best Publisher</h5>
+                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                   </div>
+                   <div class="modal-body text-dark text-start ps-5">
+                    <li> Thomson Reuters</li>
+                    <li> Penguin Random House  </li>
+                    <li> Hachette Livre </li>
+                    <li> HarperCollins </li>
+                    <li> Macmillan Publishers </li>
+                    <li> Bertelsmann </li>
+                    <li> Scholastic Corporation </li>
+                    <li> McGraw-Hill Education </li>
+                  
+                   </div>
+                 </div>
+               </div>
+             </div>
+            </div>
             </div>
           </div>
         </div>
