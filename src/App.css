@@ -49,9 +49,8 @@ a{
 .service-row{
   display: grid;
   grid-template-columns: 200px 200px 200px;
-  gap: 200px;
-  justify-content: space-between;
-  margin-top: 50px;
+  justify-content: space-around;
+  margin:100px;
 }
 .service-img{
   padding: 40px;

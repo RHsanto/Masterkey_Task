@@ -2,9 +2,10 @@ import React from 'react';
 
 const Banner = () => {
   return (
-  <div className="container ">
-    <div className='banner-section mt-4'>
-       <div className="row ">
+    <div className="main-menu">
+       <div className="container ">
+    <div className='banner-section'>
+       <div className="row py-5">
          <div className="col-lg-6 ">
            <h1>We create trusted <span className="color">partnerships</span> that drive growth</h1>
             <p>Our global affiliate marketing network empowers advertisers 
@@ -16,6 +17,8 @@ const Banner = () => {
        </div>
      </div>
     </div>
+    </div>
+ 
   );
 };
 

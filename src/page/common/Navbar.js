@@ -4,10 +4,10 @@ import logo from '../../img/logo3.png'
 import './common.css'
 const Navbar = () => {
   return (
-    <div>
+    <div className='main-menu'>
     <div className="container">
     <div className="menu-bar ">
-      <div className="top-menu  d-lg-flex justify-content-between p-3">
+      <div className="top-menu  d-lg-flex justify-content-between pt-1">
         <div className="logo ">
           <img src={logo} alt="" />
         </div>
@@ -15,7 +15,7 @@ const Navbar = () => {
           <p><span>BN</span> / EN</p>
         </div>
       </div>
-     <div className=" d-lg-flex justify-content-between align-items-center">
+     <div className=" d-lg-flex justify-content-between align-items-center pb-3">
        <nav>
          <>
           <Link to='/'><li>HOME</li></Link>
@@ -28,7 +28,7 @@ const Navbar = () => {
          </>
        </nav>
 
-       <div className="auth shadow d-flex">
+       <div className="auth shadow bg-light d-flex">
         <Link to='/log-in'><div className='login-btn'>LOGIN </div></Link>
         <Link to='/sign-up'> <div className='signUp-btn active'>SIGN UP</div></Link>
        </div>

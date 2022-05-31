@@ -13,7 +13,7 @@ const Services = () => {
            Delectus obcaecati tempore recusandae quisquam iure a cumque
             similique velit aliquid! Saepe.</p>
         </div>
-        <div className="service-row">
+        <div className="service-row ">
           <div className="service">
             <div className="service-img shadow">
               <img src={Img1} alt="" srcset="" />

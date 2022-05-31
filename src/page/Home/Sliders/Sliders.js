@@ -21,7 +21,7 @@ const Sliders = () => {
            </div>
            <div className="slide-info">
              <h2>Do You Want to Learn here?</h2>
-             <p>Dramatically supply transparent deliverables before & you.</p>
+             <p>Dramatically supply transparent  deliverables before & can backward comp internet or organic sources.</p>
            </div>
           </div>
           <div className='slide d-flex justify-content-center align-items-center'>

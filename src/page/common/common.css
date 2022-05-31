@@ -1,4 +1,6 @@
-
+.main-menu{
+  background-color: #F2F2F2;
+}
 nav  li{
 list-style: none;
 display: inline-block;
