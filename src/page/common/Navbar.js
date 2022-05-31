@@ -2,11 +2,12 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../../img/logo3.png'
 import './common.css'
+import {RiBarChartHorizontalLine} from "react-icons/ri";
 const Navbar = () => {
   return (
     <div className='main-menu'>
-    <div className="container">
-    <div className="menu-bar ">
+    <div className="container ">
+    <div className="menu-bar d-none d-lg-block">
       <div className="top-menu  d-lg-flex justify-content-between pt-1">
         <div className="logo ">
           <img src={logo} alt="" />
@@ -33,7 +34,39 @@ const Navbar = () => {
         <Link to='/sign-up'> <div className='signUp-btn active'>SIGN UP</div></Link>
        </div>
      </div>
-     </div>
+    </div>
+    <div className="d-flex justify-content-between d-lg-none p-2 ">
+    <div className="logo ">
+          <img src={logo} alt="" />
+    </div>
+    <div className="bar">
+    <div>
+         
+     <a class="btn text-dark" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+         <RiBarChartHorizontalLine className='fs-2'/>
+      </a>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+ <div class="offcanvas-header">
+   <h5 class="offcanvas-title text-dark" id="offcanvasExampleLabel">Menu</h5>
+   <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+    aria-label="Close"></button>
+ </div>
+ <div class="offcanvas-body ">
+       <>
+          <Link class="text-reset" data-bs-dismiss="offcanvas"aria-label="Close" to='/'><li>HOME</li></Link>
+          <Link class="text-reset" data-bs-dismiss="offcanvas"aria-label="Close" to='#'><li>ADVERTISERS</li></Link>
+          <Link class="text-reset" data-bs-dismiss="offcanvas"aria-label="Close" to='#'><li>PUBLISHERS</li></Link>
+          <Link class="text-reset" data-bs-dismiss="offcanvas"aria-label="Close" to='#'><li>INFLUENCER</li></Link>
+          <Link class="text-reset" data-bs-dismiss="offcanvas"aria-label="Close" to='#'><li>AD FORMATS</li></Link>
+          <Link class="text-reset" data-bs-dismiss="offcanvas"aria-label="Close" to='#'><li>BLOG</li></Link>
+          <Link class="text-reset" data-bs-dismiss="offcanvas"aria-label="Close" to='#'><li>CONTACT US</li></Link>
+         </>
+     
+ </div>
+</div>
+         </div>
+    </div>
+    </div>
     </div>
     </div>
   );

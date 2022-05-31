@@ -1,12 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { RiExternalLinkFill } from "react-icons/ri";
+import img  from '../../../img/4.jpg'
 const SKIM = () => {
   return (
     <div className='container'>
       <div className="row">
           <div className="col-lg-5">
-            <img className='w-100 h-100' src="https://images.unsplash.com/photo-1653795164352-6f4ba840f525?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxODB8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="" />
+            <img className='w-100 h-100 add-img' src={img} alt="" />
           </div>
           <div className="col-lg-7 add-info">
             <h2>SKIM</h2>

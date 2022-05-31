@@ -19,7 +19,7 @@ const ADVERTISE = () => {
     <div> 
      <div className="container">
        <h2 className="title">VERSATILE AD FORMATS</h2>
-        <div className="d-flex justify-content-between my-5 nested-btn">
+        <div className="d-lg-flex d-block  justify-content-between my-5 nested-btn">
           <button onClick={handlePopUnder} className='active'>POP-UNDER</button> 
           <button onClick={handleBanner}>BANNER AD</button>
           <button onClick={handleSkim}>SKIM</button>
