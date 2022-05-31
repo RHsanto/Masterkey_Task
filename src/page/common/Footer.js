@@ -5,14 +5,14 @@ import logo from '../../img/logo3.png'
 import './common.css'
 const Footer = () => {
   return (
-    <div className='footer'>
+    <div className='footer text-lg-start text-center'>
       <div className="container">
-        <div className="row">
+        <div className="row g-4">
           <div className="col-lg-3">
             <div className="foot-info-1">
               <h5>We are social </h5>
               <h4>FOLLOW US</h4>
-              <div className="d-flex social-icons gap-3">
+              <div className="d-flex social-icons gap-3 justify-content-lg-start justify-content-center">
                <li className='instagram'><FaInstagram/></li>
                <li className='facebook'><FaFacebookF/></li>
                <li className='youtube'><FaYoutube/></li>
