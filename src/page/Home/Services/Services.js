@@ -20,7 +20,7 @@ const Services = () => {
             </div>
             <div className="service-info">
               <h2 className='my-4'>Title 1</h2>
-              <button>Hello 1</button>
+              <div className='button'>Hello 1</div>
             </div>
           </div>
           <div className="service">
@@ -29,7 +29,7 @@ const Services = () => {
             </div>
             <div className="service-info">
             <h2 className='my-4'>Title 2</h2>
-              <button>Hello 2</button>
+            <div className='button'>Hello 2</div>
             </div>
           </div>
           <div className=" ">
@@ -38,7 +38,7 @@ const Services = () => {
             </div>
             <div className="service-info">
             <h2 className='my-4'>Title 3</h2>
-              <button>Hello 3</button>
+            <div className='button'>Hello 3</div>
             </div>
           </div>
         </div>

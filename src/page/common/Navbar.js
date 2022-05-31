@@ -28,9 +28,9 @@ const Navbar = () => {
          </>
        </nav>
 
-       <div className="auth shadow ">
-         <button className='login-btn '>LOGIN </button>
-         <button className='signUp-btn shadow '>SIGN UP</button>
+       <div className="auth shadow d-flex">
+        <Link to='/log-in'><div className='login-btn'>LOGIN </div></Link>
+        <Link to='/sign-up'> <div className='signUp-btn active'>SIGN UP</div></Link>
        </div>
      </div>
      </div>
