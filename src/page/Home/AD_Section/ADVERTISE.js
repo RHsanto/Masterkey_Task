@@ -28,6 +28,7 @@ const ADVERTISE = () => {
 {/* here nested result */}
        <div>
          {info}
+         
        </div>
      </div>
     </div>

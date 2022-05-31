@@ -6,7 +6,7 @@ const Banner = () => {
     <div className="main-menu">
        <div className="container ">
     <div className='banner-section'>
-       <div className="row py-5">
+       <div className="row py-5 g-4">
          <div className="col-lg-6 ">
            <h1>This Month's Best <br /> New Books</h1>
             <p className='mb-5'>Check out our list of this month's best new books, available <br /> now </p>
