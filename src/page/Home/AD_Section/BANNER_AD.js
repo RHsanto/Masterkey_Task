@@ -11,7 +11,8 @@ const BANNER_AD = () => {
           </div>
           <div className="col-lg-7 add-info">
             <h2>BANNER AD</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque architecto sit expedita ut repellat vitae autem commodi aut reprehenderit earum molestiae eius porro ad dolorem optio, ex accusamus atque vel nisi doloremque. Tempore nostrum eum quidem reprehenderit perferendis dignissimos eos, atque quis dolores itaque repellendus rerum repudiandae, ex quo omnis?</p>
+            <p>Top Book Publishing Companies in the World 2022, Biggest Book Publishers| 
+             Global Book Publishing Industry Factsheet</p>
             <Link to='/#' className='learn-link'>Learn more <RiExternalLinkFill/></Link>
             </div>
         </div>

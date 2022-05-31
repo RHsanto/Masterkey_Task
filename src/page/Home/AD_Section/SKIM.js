@@ -11,8 +11,8 @@ const SKIM = () => {
           </div>
           <div className="col-lg-7 add-info">
             <h2>SKIM</h2>
-           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id doloribus accusamus natus non tempore iusto incidunt molestiae quae perferendis ipsam aliquid veritatis voluptate pariatur dolores nisi fuga exercitationem illum, sit esse tempora hic sunt! Fuga veniam dolor libero nulla, perspiciatis error, doloribus, nobis natus at labore voluptas rem quis sunt.
-           </p>
+            <p>Top Book Publishing Companies in the World 2022, Biggest Book Publishers| 
+             Global Book Publishing Industry Factsheet</p>
            <Link to='/#' className='learn-link'>Learn more <RiExternalLinkFill/></Link>
            </div>
         </div>

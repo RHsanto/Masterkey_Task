@@ -27,10 +27,10 @@ const Footer = () => {
           <div className="foot-info-2 fw-bold">
               <h5>Link</h5>
               <div>
-               <li><Link to='/#'>ADVERTISERS</Link> </li>
-               <li><Link to='/#'>PUBLISHERS</Link> </li>
-               <li><Link to='/#'>INFLUENCER</Link> </li>
-               <li><Link to='/#'> AD FORMATS</Link></li>
+               <li><Link to='/advertisement'>ADVERTISERS</Link> </li>
+               <li><Link to='/publisher'>PUBLISHERS</Link> </li>
+               <li><Link to='/influencer'>INFLUENCER</Link> </li>
+               <li><Link to='/services'> AD FORMATS</Link></li>
               </div>
           </div>
           </div>
@@ -41,7 +41,7 @@ const Footer = () => {
                <li> <Link to='/#'>TERMS & CONDITIONS</Link></li>
                <li> <Link to='/#'>PRIVACY POLICY </Link></li>
                <li> <Link to='/#'>CANCELLATION POLICY</Link></li>
-               <li> <Link to='/#'>BLOG</Link></li>
+               <li> <Link to='/blog'>BLOG</Link></li>
               </div>
           </div>
           </div>
@@ -51,7 +51,7 @@ const Footer = () => {
               <div>
                <li><Link to='/#'>FAQ</Link></li>
                <li><Link to='/#'>MEDIA KIT</Link></li>
-               <li><Link to='/#'>CONTACT US</Link></li>
+               <li><Link to='/contact'>CONTACT US</Link></li>
               </div>   
           </div>
           </div>

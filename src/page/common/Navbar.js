@@ -20,16 +20,16 @@ const Navbar = () => {
        <nav>
          <>
           <Link to='/'><li>HOME</li></Link>
-          <Link to='#'><li>ADVERTISERS</li></Link>
-          <Link to='#'><li>PUBLISHERS</li></Link>
-          <Link to='#'><li>INFLUENCER</li></Link>
-          <Link to='#'><li>AD FORMATS</li></Link>
-          <Link to='#'><li>BLOG</li></Link>
-          <Link to='#'><li>CONTACT US</li></Link>
+          <Link to='/advertisement'><li>ADVERTISERS</li></Link>
+          <Link to='/publisher'><li>PUBLISHERS</li></Link>
+          <Link to='/influencer'><li>INFLUENCER</li></Link>
+          <Link to='/services'><li>AD FORMATS</li></Link>
+          <Link to='/blog'><li>BLOG</li></Link>
+          <Link to='/contact'><li>CONTACT US</li></Link>
          </>
        </nav>
 
-       <div className="auth shadow bg-light d-flex">
+       <div className="auth shadow  d-flex">
         <Link to='/log-in'><div className='login-btn'>LOGIN </div></Link>
         <Link to='/sign-up'> <div className='signUp-btn active'>SIGN UP</div></Link>
        </div>
@@ -54,12 +54,13 @@ const Navbar = () => {
  <div class="offcanvas-body ">
        <>
           <Link class="text-reset" data-bs-dismiss="offcanvas"aria-label="Close" to='/'><li>HOME</li></Link>
-          <Link class="text-reset" data-bs-dismiss="offcanvas"aria-label="Close" to='#'><li>ADVERTISERS</li></Link>
-          <Link class="text-reset" data-bs-dismiss="offcanvas"aria-label="Close" to='#'><li>PUBLISHERS</li></Link>
-          <Link class="text-reset" data-bs-dismiss="offcanvas"aria-label="Close" to='#'><li>INFLUENCER</li></Link>
-          <Link class="text-reset" data-bs-dismiss="offcanvas"aria-label="Close" to='#'><li>AD FORMATS</li></Link>
-          <Link class="text-reset" data-bs-dismiss="offcanvas"aria-label="Close" to='#'><li>BLOG</li></Link>
-          <Link class="text-reset" data-bs-dismiss="offcanvas"aria-label="Close" to='#'><li>CONTACT US</li></Link>
+          <Link class="text-reset" data-bs-dismiss="offcanvas"aria-label="Close" to='/advertisement'><li>ADVERTISERS</li></Link>
+          <Link class="text-reset" data-bs-dismiss="offcanvas"aria-label="Close" to='/publisher'><li>PUBLISHERS</li></Link>
+          <Link class="text-reset" data-bs-dismiss="offcanvas"aria-label="Close" to='/influencer'><li>INFLUENCER</li></Link>
+          <Link class="text-reset" data-bs-dismiss="offcanvas"aria-label="Close" to='/services'><li>AD FORMATS</li></Link>
+          <Link class="text-reset" data-bs-dismiss="offcanvas"aria-label="Close" to='/blog'><li>BLOG</li></Link>
+          <Link class="text-reset" data-bs-dismiss="offcanvas"aria-label="Close" to='/contact'><li>CONTACT US</li></Link>
+          
          </>
      
  </div>

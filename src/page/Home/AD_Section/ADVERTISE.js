@@ -16,7 +16,7 @@ const ADVERTISE = () => {
      const handleNative =(e)=>{
     setInfo(<NATIVE/>)}
   return (
-    <div> 
+    <div className='my-5'> 
      <div className="container">
        <h2 className="title">VERSATILE AD FORMATS</h2>
         <div className="d-lg-flex d-block  justify-content-between my-5 nested-btn">

@@ -10,7 +10,8 @@ const NATIVE = () => {
           <img className='w-100 h-100' src={img} alt="" />          </div>
           <div className="col-lg-7 add-info">
             <h2>NATIVE</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis quibusdam nobis odio at soluta sed ex, distinctio dolorem provident quasi obcaecati, dicta repellendus consectetur tenetur quae ipsam quos est, nisi illum tempora quam expedita tempore. Quas nemo quae error, commodi doloremque ratione in porro aut quos illo obcaecati dicta recusandae.</p>
+            <p>Top Book Publishing Companies in the World 2022, Biggest Book Publishers| 
+             Global Book Publishing Industry Factsheet</p>
             <Link to='/#' className='learn-link'>Learn more <RiExternalLinkFill/></Link>
           </div>
         </div>
